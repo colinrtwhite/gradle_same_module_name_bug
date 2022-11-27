@@ -31,8 +31,3 @@ compileTestKotlin {
 application {
     mainClassName = 'MainKt'
 }
-
-subprojects {
-    def subGroup = path.replace(':', '.').replace('-', '_')
-    group = "${rootProject.group}$subGroup"
-}
