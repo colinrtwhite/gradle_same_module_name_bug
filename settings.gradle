@@ -1,0 +1,4 @@
+rootProject.name = 'gradle_same_module_name_bug'
+include 'widget'
+include ':test1:widget'
+include ':test2:widget'
